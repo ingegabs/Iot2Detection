@@ -39,6 +39,6 @@ In this project, I performed Bayesian Optimization to tune the key hyperparamete
 The results show that the Logistic Regression model achieved an overall accuracy of 91.84%, demonstrating strong performance in identifying most attack types. The DoS_SYN_Hping class was detected with very high precision (0.9994) and recall (0.9862), indicating that the model can effectively recognize this type of attack. However, due to significant class imbalance in the dataset, the DDoS_Slowloris class had a much lower precision (0.1052) and F1-score (0.1897), despite its high recall (0.9626), meaning the model tends to overpredict this class. In future phases of the project, I plan to apply oversampling or class weighting techniques to mitigate this imbalance and improve the precision and F1-score for minority classes. Overall, the results suggest that Logistic Regression performs well for dominant attack types but needs further tuning to achieve balanced detection across all categories.
 
 
-## (OPTIONAL: CONTACT DETAILS)
+## CONTACT DETAILS
 For more information about this you can contact me to inge.gabs@gmail.com or follow me on https://www.linkedin.com/in/gabriela-espinosa-39a75462/ 
 
